@@ -1,0 +1,1067 @@
+2017-08-22 21:58:30 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2017-08-22 21:58:30 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2017-08-22 21:58:32 INFO  DbOperations:57 - 
+Successfully Created '5' Records In The Database!
+
+2017-08-22 21:58:32 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2017-08-22 21:58:32 INFO  AppMain:21 - Student Details?= Id: 1, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:21 - Student Details?= Id: 2, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:21 - Student Details?= Id: 3, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:21 - Student Details?= Id: 4, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:21 - Student Details?= Id: 5, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2017-08-22 21:58:32 INFO  DbOperations:111 - 
+Student With Id?= 1 Is Successfully Updated In The Database!
+
+2017-08-22 21:58:32 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2017-08-22 21:58:32 INFO  AppMain:32 - Student Details?= Id: 1, Name: Java Code Geek, Roll No.: 101, Course: Masters Of Technology
+2017-08-22 21:58:32 INFO  AppMain:32 - Student Details?= Id: 2, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:32 - Student Details?= Id: 3, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:32 - Student Details?= Id: 4, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:32 - Student Details?= Id: 5, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2017-08-22 21:58:32 INFO  DbOperations:139 - 
+Student With Id?= 5 Is Successfully Deleted From The Database!
+
+2017-08-22 21:58:32 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2017-08-22 21:58:32 INFO  AppMain:42 - Student Details?= Id: 1, Name: Java Code Geek, Roll No.: 101, Course: Masters Of Technology
+2017-08-22 21:58:32 INFO  AppMain:42 - Student Details?= Id: 2, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:42 - Student Details?= Id: 3, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:42 - Student Details?= Id: 4, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2017-08-22 21:58:32 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2017-08-22 21:58:33 INFO  DbOperations:187 - 
+Successfully Deleted All Records From The Database Table!
+
+2017-08-22 21:58:33 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2017-08-22 21:58:33 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 12:11:29 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:11:29 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:11:31 INFO  DbOperations:57 - 
+Successfully Created '5' Records In The Database!
+
+2021-03-19 12:11:31 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:11:31 INFO  AppMain:21 - Student Details?= Id: 6, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:21 - Student Details?= Id: 7, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:21 - Student Details?= Id: 8, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:21 - Student Details?= Id: 9, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:21 - Student Details?= Id: 10, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2021-03-19 12:11:31 INFO  DbOperations:114 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:11:31 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2021-03-19 12:11:31 INFO  AppMain:32 - Student Details?= Id: 6, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:32 - Student Details?= Id: 7, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:32 - Student Details?= Id: 8, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:32 - Student Details?= Id: 9, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:32 - Student Details?= Id: 10, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2021-03-19 12:11:31 INFO  DbOperations:141 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:11:31 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2021-03-19 12:11:31 INFO  AppMain:42 - Student Details?= Id: 6, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:42 - Student Details?= Id: 7, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:42 - Student Details?= Id: 8, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:42 - Student Details?= Id: 9, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:42 - Student Details?= Id: 10, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 12:11:31 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2021-03-19 12:11:31 INFO  DbOperations:185 - 
+Successfully Deleted All Records From The Database Table!
+
+2021-03-19 12:11:31 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2021-03-19 12:11:31 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 12:19:06 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:19:06 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:19:08 INFO  DbOperations:57 - 
+Successfully Created '5' Records In The Database!
+
+2021-03-19 12:19:08 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:19:08 INFO  AppMain:21 - Student Details?= Id: 11, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:21 - Student Details?= Id: 12, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:21 - Student Details?= Id: 13, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:21 - Student Details?= Id: 14, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:21 - Student Details?= Id: 15, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2021-03-19 12:19:08 INFO  DbOperations:158 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:19:08 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2021-03-19 12:19:08 INFO  AppMain:32 - Student Details?= Id: 11, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:32 - Student Details?= Id: 12, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:32 - Student Details?= Id: 13, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:32 - Student Details?= Id: 14, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:32 - Student Details?= Id: 15, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2021-03-19 12:19:08 INFO  DbOperations:185 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:19:08 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2021-03-19 12:19:08 INFO  AppMain:42 - Student Details?= Id: 11, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:42 - Student Details?= Id: 12, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:42 - Student Details?= Id: 13, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:42 - Student Details?= Id: 14, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:42 - Student Details?= Id: 15, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 12:19:08 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2021-03-19 12:19:09 INFO  DbOperations:229 - 
+Successfully Deleted All Records From The Database Table!
+
+2021-03-19 12:19:09 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2021-03-19 12:19:09 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 12:19:43 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:19:43 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:19:44 INFO  DbOperations:104 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:19:44 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:19:45 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2021-03-19 12:19:45 INFO  DbOperations:158 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:19:45 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2021-03-19 12:19:45 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2021-03-19 12:19:45 INFO  DbOperations:185 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:19:45 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2021-03-19 12:19:45 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2021-03-19 12:19:45 INFO  DbOperations:229 - 
+Successfully Deleted All Records From The Database Table!
+
+2021-03-19 12:19:45 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2021-03-19 12:19:45 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 12:20:45 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:20:45 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:20:47 INFO  DbOperations:104 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:20:47 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:22:42 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:22:42 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:22:44 INFO  DbOperations:105 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:22:44 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:23:55 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:23:55 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:23:58 INFO  DbOperations:102 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 12:23:58 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:26:14 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:26:14 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:26:16 ERROR SqlExceptionHelper:146 - Duplicate entry 'Sales' for key 'idx_dept_name'
+2021-03-19 12:26:16 INFO  DbOperations:105 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 12:26:16 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:26:40 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:26:40 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:26:42 INFO  DbOperations:102 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 12:26:42 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:28:57 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:28:57 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:29:00 INFO  DbOperations:102 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 12:29:00 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:37:58 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:37:58 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:38:01 INFO  DbOperations:103 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 12:38:01 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 12:38:48 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 12:38:48 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 12:38:50 INFO  DbOperations:103 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 12:38:50 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:04:47 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:04:47 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:04:52 INFO  DbOperations:119 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:04:52 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:37:45 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:37:45 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:37:47 INFO  DbOperations:192 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:37:47 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:38:22 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:38:22 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:38:24 INFO  DbOperations:192 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:38:24 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:39:06 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:39:06 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:39:08 INFO  DbOperations:192 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:39:08 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:39:54 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:39:54 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:39:56 INFO  DbOperations:192 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:39:56 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:42:08 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:42:08 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:42:10 INFO  DbOperations:192 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:42:11 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:43:49 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:43:49 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:43:51 INFO  DbOperations:118 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:43:51 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:44:25 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:44:25 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:44:28 INFO  DbOperations:118 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:44:28 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:45:23 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:45:23 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:45:25 INFO  DbOperations:62 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:45:25 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:48:18 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:48:18 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:48:20 INFO  DbOperations:62 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:48:20 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:51:14 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:51:14 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:51:17 INFO  DbOperations:62 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:51:17 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:52:52 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:52:52 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:52:54 INFO  DbOperations:62 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:52:54 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:55:10 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:55:10 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:55:13 INFO  DbOperations:62 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:13 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:55:13 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:13 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2021-03-19 13:55:13 INFO  DbOperations:246 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:13 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2021-03-19 13:55:13 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:13 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2021-03-19 13:55:14 INFO  DbOperations:296 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:14 INFO  DbOperations:273 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:14 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2021-03-19 13:55:14 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:14 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2021-03-19 13:55:14 INFO  DbOperations:320 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:14 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2021-03-19 13:55:14 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:55:14 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 13:56:59 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:56:59 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:57:02 INFO  DbOperations:62 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:02 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:57:02 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:02 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2021-03-19 13:57:02 INFO  DbOperations:246 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:02 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2021-03-19 13:57:02 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:02 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2021-03-19 13:57:02 INFO  DbOperations:296 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:02 INFO  DbOperations:273 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:02 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2021-03-19 13:57:02 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:02 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2021-03-19 13:57:03 INFO  DbOperations:320 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:03 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2021-03-19 13:57:03 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:57:03 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 13:58:36 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 13:58:36 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 13:58:39 INFO  DbOperations:62 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:39 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 13:58:39 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:39 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2021-03-19 13:58:39 INFO  DbOperations:246 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:39 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2021-03-19 13:58:39 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:39 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2021-03-19 13:58:39 INFO  DbOperations:296 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:39 INFO  DbOperations:273 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:39 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2021-03-19 13:58:39 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:39 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2021-03-19 13:58:39 INFO  DbOperations:320 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:40 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2021-03-19 13:58:40 INFO  DbOperations:216 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 13:58:40 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 14:17:16 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 14:17:16 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 14:17:19 INFO  DbOperations:59 - 
+Successfully Created '5' Records In The Database!
+
+2021-03-19 14:17:19 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 14:17:20 INFO  AppMain:21 - Student Details?= Id: 16, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:21 - Student Details?= Id: 17, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:21 - Student Details?= Id: 18, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:21 - Student Details?= Id: 19, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:21 - Student Details?= Id: 20, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:25 - 
+=======UPDATE RECORDS=======
+
+2021-03-19 14:17:20 INFO  DbOperations:246 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 14:17:20 INFO  AppMain:28 - 
+=======READ RECORDS AFTER UPDATION=======
+
+2021-03-19 14:17:20 INFO  AppMain:32 - Student Details?= Id: 16, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:32 - Student Details?= Id: 17, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:32 - Student Details?= Id: 18, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:32 - Student Details?= Id: 19, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:32 - Student Details?= Id: 20, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:36 - 
+=======DELETE RECORD=======
+
+2021-03-19 14:17:20 INFO  DbOperations:273 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 14:17:20 INFO  AppMain:39 - 
+=======READ RECORDS AFTER DELETION=======
+
+2021-03-19 14:17:20 INFO  AppMain:42 - Student Details?= Id: 16, Name: Editor 101, Roll No.: 101, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:42 - Student Details?= Id: 17, Name: Editor 102, Roll No.: 102, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:42 - Student Details?= Id: 18, Name: Editor 103, Roll No.: 103, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:42 - Student Details?= Id: 19, Name: Editor 104, Roll No.: 104, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:42 - Student Details?= Id: 20, Name: Editor 105, Roll No.: 105, Course: Bachelor Of Technology
+2021-03-19 14:17:20 INFO  AppMain:45 - 
+=======DELETE ALL RECORDS=======
+
+2021-03-19 14:17:20 INFO  DbOperations:317 - 
+Successfully Deleted All Records From The Database Table!
+
+2021-03-19 14:17:20 INFO  AppMain:47 - 
+=======READ RECORDS AFTER ALL RECORDS DELETION=======
+2021-03-19 14:17:21 INFO  AppMain:50 - 
+No Records Are Present In The Database Table!
+
+2021-03-19 14:18:23 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 14:18:23 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 14:18:25 INFO  DbOperations:115 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 14:18:25 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 14:43:08 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 14:43:08 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 14:43:11 INFO  DbOperations:189 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 14:43:11 INFO  AppMain:17 - 
+=======READ RECORDS=======
+
+2021-03-19 14:55:26 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 14:55:26 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 14:55:28 INFO  DbOperations:65 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 14:55:28 INFO  AppMain:18 - 
+=======READ RECORDS=======
+
+2021-03-19 15:33:56 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 15:33:56 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 15:33:58 ERROR SqlExceptionHelper:146 - Duplicate entry 'test' for key 'idx_dept_name'
+2021-03-19 15:33:58 INFO  DbOperations:67 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 15:33:59 INFO  DbOperations:230 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 15:33:59 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 15:35:18 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 15:35:18 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 15:35:20 ERROR SqlExceptionHelper:146 - Duplicate entry 'test' for key 'idx_dept_name'
+2021-03-19 15:35:20 INFO  DbOperations:67 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 15:35:21 ERROR SqlExceptionHelper:146 - Duplicate entry 'test' for key 'idx_dept_name'
+2021-03-19 15:35:21 INFO  DbOperations:233 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 15:35:21 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 15:36:08 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 15:36:08 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 15:36:10 ERROR SqlExceptionHelper:146 - Duplicate entry 'test' for key 'idx_dept_name'
+2021-03-19 15:36:10 INFO  DbOperations:233 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 15:36:10 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 16:28:34 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 16:28:34 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 16:28:37 INFO  DbOperations:213 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 16:28:37 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 16:31:04 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 16:31:04 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 16:31:06 INFO  DbOperations:213 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 16:31:06 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 16:35:34 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 16:35:34 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 16:35:36 INFO  DbOperations:212 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 16:35:36 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 16:37:14 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 16:37:14 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 16:37:17 INFO  DbOperations:215 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 16:37:17 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 16:41:53 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 16:41:53 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 16:41:56 INFO  DbOperations:158 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 16:41:56 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 16:44:47 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 16:44:47 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 16:44:49 ERROR SqlExceptionHelper:146 - Duplicate entry 'prajakta' for key 'idx_dept_name'
+2021-03-19 16:44:49 INFO  DbOperations:161 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 16:44:49 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:03:30 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:03:30 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:03:32 INFO  DbOperations:161 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 17:03:32 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:04:15 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:04:15 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:04:18 INFO  DbOperations:161 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 17:04:18 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:05:28 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:05:28 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:05:30 INFO  DbOperations:161 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 17:05:30 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:06:43 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:06:43 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:06:45 INFO  DbOperations:161 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 17:06:45 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:07:16 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:07:17 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:07:19 INFO  DbOperations:158 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 17:07:19 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:26:57 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:26:57 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:27:00 INFO  DbOperations:160 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 17:27:00 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:27:45 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:27:45 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:27:47 INFO  DbOperations:160 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 17:27:47 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 17:28:08 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 17:28:08 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 17:28:10 INFO  DbOperations:160 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 17:28:10 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:01:34 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:01:34 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:01:37 INFO  DbOperations:165 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 18:01:37 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:04:19 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:04:19 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:04:21 INFO  DbOperations:165 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 18:04:21 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:07:06 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:07:06 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:07:08 INFO  DbOperations:165 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 18:07:08 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:10:48 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:10:48 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:10:51 INFO  DbOperations:166 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 18:10:51 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:12:23 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:12:23 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:12:25 INFO  DbOperations:166 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 18:12:25 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:19:32 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:19:32 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:19:34 INFO  DbOperations:170 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 18:19:34 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:21:44 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:21:44 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:21:46 INFO  DbOperations:171 - 
+.......Transaction Is Being Rolled Back.......
+
+2021-03-19 18:21:46 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:22:43 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:22:43 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:22:46 INFO  DbOperations:166 - 
+Successfully Created '0' Records In The Database!
+
+2021-03-19 18:22:46 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:31:38 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:31:38 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:31:41 INFO  DbOperations:180 - 
+Successfully Created  Records In The Database!
+
+2021-03-19 18:31:41 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:32:35 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:32:35 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:32:38 INFO  DbOperations:181 - 
+Successfully Created  Records In The Database!
+
+2021-03-19 18:32:38 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:34:07 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:34:07 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:34:09 INFO  DbOperations:182 - 
+Successfully Created  Records In The Database!
+
+2021-03-19 18:34:09 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:38:01 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:38:01 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:38:04 INFO  DbOperations:182 - 
+Successfully Created  Records In The Database!
+
+2021-03-19 18:38:04 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 18:39:14 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 18:39:14 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 18:39:17 INFO  DbOperations:180 - 
+Successfully Created  Records In The Database!
+
+2021-03-19 18:39:17 INFO  AppMain:19 - 
+=======READ RECORDS=======
+
+2021-03-19 19:50:23 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 19:50:23 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 19:50:23 INFO  AppMain:20 - 
+=======READ RECORDS=======
+
+2021-03-19 19:54:14 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 19:54:14 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 19:54:15 INFO  AppMain:20 - 
+=======READ RECORDS=======
+
+2021-03-19 19:56:42 INFO  AppMain:12 - .......Hibernate Crud Operations Example.......
+
+2021-03-19 19:56:42 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-19 19:56:42 INFO  AppMain:20 - 
+=======READ RECORDS=======
+
+2021-03-20 11:15:12 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-20 11:17:48 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-20 11:18:45 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-20 11:22:29 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-20 11:24:18 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-20 11:25:43 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-20 11:27:37 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
+2021-03-20 11:31:26 INFO  AppMain:14 - 
+=======CREATE RECORDS=======
+
